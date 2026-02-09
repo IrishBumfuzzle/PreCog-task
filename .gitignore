@@ -2,3 +2,5 @@
 FOR_ME.md
 glove/
 glove.zip
+para_data.pkl
+finetuned_model/
