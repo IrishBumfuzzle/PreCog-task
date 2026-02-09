@@ -1,5 +1,7 @@
 # PreCog task, The Ghost in the Machine
 
+Read the report here in [Markdown](REPORT.md) or [pdf](REPORT.pdf) (prefer markdown)
+
 The different tasks have been split into different Jupyter notebooks for each task, except for task 2, in which the finetuning notebook has been further split into a different one. 
 
 books/ folder has the chosen dataset from the Gutenberg project, and other texts like the LLM generated training set as well the output of the genetic algorithm.

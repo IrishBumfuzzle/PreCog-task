@@ -211,6 +211,8 @@ This solidifies that the model is definitely picking up on proper nouns as being
 
 These are the paragraphs which were correctly predicted. The first para just again shows that it picks up on proper nouns. The second para shows that it gives a lot of of weightage to punctuation such as "?" and ",".
 
+One more point to be seen is that the model also heavily favours first person phrases (which are not under quotation) towards AI which makes sense because both the novels were not written from a first person perspective.
+
 Unfortunately, there are some words which are attributed to each class which are common enough that they should have been ignored. such as "the travellers" or "concerns with".
 
 I suppose that this is an okay model for predicting the difference between Fyodor or Jane and AI models specifically, but for a general AI predictor it seems to be an overfitted one.
@@ -222,5 +224,21 @@ The first text is predicted to be AI with a confidence score of 97.9% (the model
 ## Task 4
 
 ### Files
+[Code](task-4.ipynb)
+[No reasoning](books/ga_gen_none.txt)
+[Low reasoning](books/ga_gen_low.txt)
+[Medium reasoning](books/ga_gen_med.txt)
 
+### GA
 
+In this task, apart from writing the genetic algorithm, I  also used it as an opportunity to distinguish between the different reasoning modes of gemini (none, low, medium). 
+
+It did show quite a difference between them, when using the medium model it got a more than 90% probability on its second iteration only. When using the low reasoning model, it took its time till the 4th iteration. Finally, the no reasoning model was not even able to reach the 90% marks for 10 iterations.
+
+### Personal
+I used my VE summary (see in task 3 notebook), got detected as AI (which is true). Due to the previously noted point, it contained many first person phrases which point towards AI in the model. The AI confidence score was 95%
+
+I was able to reword it into a third person perspective and removed some adjectives in phrases and that pushed it to the human side with a score of 69.7%
+
+## Conclusion
+It was a fun task, hope you had fun reading my report as well. Please take me in </3
